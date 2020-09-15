@@ -12,8 +12,6 @@
         <module>magno-admin</module>
         <module>magno-api</module>
         <module>magno-common</module>
-        <module>magno-framework</module>
-        <module>magno-gen</module>
         <module>magno-schedule</module>
         <module>magno-shop</module>
         <module>magno-gateway</module>
