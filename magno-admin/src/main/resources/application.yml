@@ -8,8 +8,17 @@ spring:
     url: jdbc:mysql://192.168.99.70:3306/shop?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
     username: admin
     password: 123456
-
   cloud:
      nacos:
        discovery:
          server-addr: 127.0.0.1:8848
+  jackson:
+    date-format: yyyy/MM/dd HH:mm:ss
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
