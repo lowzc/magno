@@ -14,8 +14,6 @@ spring:
          server-addr: 127.0.0.1:8848
   jackson:
     date-format: yyyy/MM/dd HH:mm:ss
-  thymeleaf:
-    prefix: /static/**
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml

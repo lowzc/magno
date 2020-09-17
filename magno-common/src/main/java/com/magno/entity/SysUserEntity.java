@@ -1,10 +1,10 @@
 package com.magno.entity;
 
-import com.platform.validator.group.AddGroup;
-import com.platform.validator.group.UpdateGroup;
-import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.NotBlank;
+import com.magno.validator.group.AddGroup;
+import com.magno.validator.group.UpdateGroup;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
