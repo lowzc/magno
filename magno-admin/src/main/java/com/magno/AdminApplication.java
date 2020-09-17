@@ -9,7 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
 
-@MapperScan("com.magno.*")
+@MapperScan("com.magno.*.validator.*")
 @EnableDiscoveryClient
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class AdminApplication {
